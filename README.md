@@ -36,7 +36,7 @@ pip install git+https://github.com/PaulBreugnot/PyFreelingApi
 
 **Notice that only install this won't make you able to use Freeling, even if you can now import the module from your Python programs!**
 
-- Install pre-compiled Freeling binary from https://sourceforge.net/projects/loacore/files/Freeling/ *(for now, only Windows x64)*
+- Download pre-compiled Freeling binary from https://sourceforge.net/projects/loacore/files/Freeling/ *(for now, only Windows x64)*
 
 Once downloaded, unzip the file, and run the `install.bat` file. By default, this will install Freeling in the folder `C:\Freeling\`.
 
