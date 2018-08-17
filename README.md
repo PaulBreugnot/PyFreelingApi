@@ -1,15 +1,23 @@
 # PyFreelingApi
 Freeling 4.1 Python APIs
 
+## Presentation
+If you want to use Freeling 4.1 with Python API, you currently need to build it from source as described in the [Freeling Documentation](https://talp-upc.gitbooks.io/freeling-4-1-user-manual/).
+However, this procedure can be quite complex and reserved for advanced users. The global objective of this project is to provide already built Freeling binaries with Python APIs to quickly get Freeling Python APIs to work thanks to a platform independent interface.
+
+This repository **only contains Python APIs** for Freeling 4.1 built following the procedures described in the [Freeling Documentation](https://talp-upc.gitbooks.io/freeling-4-1-user-manual/).
+Freeling 4.1 binaries can then be found there : https://sourceforge.net/projects/loacore/files/
+The reason for that are :
+  - Using GitHub allows to install all needed Python modules using [pip](https://pip.pypa.io/en/stable/)
+  - Freeling binaries are too heavy for GitHub repositories.
+  - This package can be cross-platform thanks to Python tricks, however Freeling is highly platfrom dependent, and so the Freeling installation, even from pre-compiled binaries, needs to be an external process (that we also try to make as simple as possible).
+
+**Notice that this project is not an official Freeling project.**
+
+*For now, the installed Python package contains APIs for Linux and Windows systems. Still in test/development...*.
+
 For more information about Freeling, see :
 http://nlp.lsi.upc.edu/freeling/index.php/node/1
-
-## Content
-This repository contains built Python APIs for Freeling, built following this procedure : https://talp-upc.gitbooks.io/freeling-4-1-user-manual/content/installation/apis-windows.html
-
-Notice that this project is not an official Freeling project.
-
-The Python package contains APIs for Linux systems and Windows *(for now, still in development...)*.
 
 ## Use
 
@@ -17,7 +25,7 @@ Once installed, you can use the Freeling Python API from your Python programs ([
 ```
 from pyFreelingAPI import freeling_api as freeling
 ```
-The script determines by itself what is the good API to use according to your plateform.
+The script determines by itself what is the good API to use according to your platform.
 
 ## Install Freeling and its Python API for Windows x64
 
