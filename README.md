@@ -22,7 +22,7 @@ http://nlp.lsi.upc.edu/freeling/index.php/node/1
 ## Use
 
 Once installed, you can use the Freeling Python API from your Python programs ([official Freeling examples] (https://talp-upc.gitbooks.io/freeling-tutorial/content/)) replacing `import freeling` by the following import :
-```
+```python
 from pyFreelingAPI import freeling_api as freeling
 ```
 The script determines by itself what is the good API to use according to your platform.
