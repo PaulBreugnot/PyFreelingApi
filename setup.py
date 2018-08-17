@@ -5,6 +5,6 @@ setup(name='PyFreeling',
       url='https://github.com/PaulBreugnot/PyFreeling',
       author="Paul Breugnot",
       author_email='paul.breugnot@etu.emse.fr',
-      packages=['PyFreeling'],
+      packages=[''],
       description="Freeling Python APIs",
       long_description=open('README.md').read())
