@@ -6,5 +6,6 @@ setup(name='PyFreelingApi',
       author="Paul Breugnot",
       author_email='paul.breugnot@etu.emse.fr',
       packages=["pyFreelingApi"],
+      package_dir={"": "pyFreelingApi"},
       description="Freeling Python APIs",
       long_description=open('README.md').read())
