@@ -1,6 +1,6 @@
 from setuptools import setup
 
-setup(name='PyFreeling',
+setup(name='PyFreelingApi',
       version='0.1',
       url='https://github.com/PaulBreugnot/PyFreeling',
       author="Paul Breugnot",
