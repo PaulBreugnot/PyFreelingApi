@@ -1,11 +1,11 @@
 # PyFreelingApi
-Freeling 4.1 Python APIs
+Freeling 4.1 Python 3 APIs
 
 ## Presentation
 If you want to use Freeling 4.1 with Python API, you currently need to build it from source as described in the [Freeling Documentation](https://talp-upc.gitbooks.io/freeling-4-1-user-manual/).
-However, this procedure can be quite complex and reserved for advanced users. The global objective of this project is to provide already built Freeling binaries with Python APIs to quickly get Freeling Python APIs to work thanks to a platform independent interface.
+However, this procedure can be quite complex and reserved for advanced users. The global objective of this project is to provide already built Freeling binaries with Python 3 APIs to quickly get Freeling Python 3 APIs to work thanks to a platform independent interface.
 
-This repository **only contains Python APIs** for Freeling 4.1 built following the procedures described in the [Freeling Documentation](https://talp-upc.gitbooks.io/freeling-4-1-user-manual/).
+This repository **only contains Python 3 APIs** for Freeling 4.1 built following the procedures described in the [Freeling Documentation](https://talp-upc.gitbooks.io/freeling-4-1-user-manual/).
 Freeling 4.1 binaries can then be found there : https://sourceforge.net/projects/loacore/files/
 The reason for that are :
   - Using GitHub allows to install all needed Python modules using [pip](https://pip.pypa.io/en/stable/)
