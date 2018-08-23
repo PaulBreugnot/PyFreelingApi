@@ -1,7 +1,9 @@
 #! /usr/bin/python3
 
-import pyFreelingApi.windows_api.pyfreeling as freeling
+from pyFreelingApi import freeling_api as freeling
+from pyFreelingApi import INSTALLATION_PATH
 import sys
+import os
 
 ## -----------------------------------------------
 ## Do whatever is needed with analyzed sentences
@@ -58,11 +60,11 @@ lang = "en"
 if len(sys.argv)>1 : lang=sys.argv[1]
 
 # get installation path to use from arg2, or use /usr/local if not provided
-ipath = "C:\\Freeling\\freeling";
+ipath = INSTALLATION_PATH
 if len(sys.argv)>2 : ipath=sys.argv[2]
 
 # path to language data
-lpath = ipath + "\\share\\freeling\\" + lang + "\\"
+lpath = os.path.join(ipath, "share", "freeling", lang, "")
 
 # create analyzers
 tk=freeling.tokenizer(lpath+"tokenizer.dat");
